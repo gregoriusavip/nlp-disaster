@@ -9,7 +9,7 @@ For kaggle competition: https://www.kaggle.com/competitions/nlp-getting-started/
 ## Setup
 
 ### Prerequisites
-- Python 3.x
+- Python 3.9 or above
 - Anaconda or Miniconda
 
 ### Installation
@@ -18,6 +18,17 @@ For kaggle competition: https://www.kaggle.com/competitions/nlp-getting-started/
 
 2. **Create a Conda environment**
    ```bash
-   conda create --name nlp-disaster python=3.8
+   conda create --name nlp-disaster python=3.9
    conda activate nlp-disaster
 
+3. **Install required library**
+   ```bash
+   conda install -c conda-forge jupyter
+   conda install numpy
+   conda install pandas
+   conda install matplotlib
+   conda install seaborn
+   conda install -c conda-forge wordcloud
+   conda install -c anaconda nltk
+   conda install -c conda-forge scikit-learn
+   
